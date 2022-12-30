@@ -7,7 +7,6 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="Employee")
-
 public class Employee {
 	
 	@Id
@@ -78,8 +77,7 @@ public class Employee {
 
 	@Override
 	public String toString() {
-		return "Employee [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", company=" + company
-				+ "]";
+		return "Employee [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", company=" + company + "]";
 	}
 	
 	

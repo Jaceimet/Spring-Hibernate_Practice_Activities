@@ -6,6 +6,7 @@ import org.hibernate.cfg.Configuration;
 
 import practice.activity8.entity.Employee;
 
+
 public class CreateEmployeeDemo {
 
 	public static void main(String[] args) {
