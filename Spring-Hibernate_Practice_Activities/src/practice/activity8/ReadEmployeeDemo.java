@@ -48,7 +48,7 @@ public class ReadEmployeeDemo {
 			session.beginTransaction();
 			
 			// retrieve employee based on ID: primary key
-			System.out.println("/nGetting employee with id:" + tempEmployee2.getId());
+			System.out.println("\nGetting employee with id:" + tempEmployee2.getId());
 			
 			Employee myEmployee = session.get(Employee.class,tempEmployee2.getId());
 			
